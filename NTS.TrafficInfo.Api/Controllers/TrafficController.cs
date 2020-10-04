@@ -12,7 +12,7 @@ namespace NTS.TrafficInfo.Api.Controllers
         private readonly ITrafficJamRepository trafficJamRepository;
 
         public TrafficController(ITrafficJamRepository trafficJamRepository)
-        {
+        {   
             this.trafficJamRepository = trafficJamRepository;
         }
 
