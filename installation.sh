@@ -28,7 +28,7 @@ git remote add $REMOTE_NAME $GIT_URL
 
 git add .
 git commit -m "temp"
-git push "https://$DEPLOY_USER:$DEPLOY_PASSWORD@$ntsApiName.scm.azurewebsites.net/$ntsApiName.git"
+git push "https://$DEPLOY_USER:$DEPLOY_PASSWORD@$ntsApiName.scm.azurewebsites.net/$ntsApiName.git" origin main
 
 printf "Swagger URL: https://$ntsApiName.azurewebsites.net/swagger\n"
 
