@@ -24,10 +24,10 @@ az webapp deployment user set --user-name $DEPLOY_USER --password $DEPLOY_PASSWO
 
 cd ps-azure-api-management-lab
 
-git remote add $REMOTE_NAME $DEPLOY_URL
-git add .
-git commit -m "Initial"
-git push "https://$DEPLOY_USER:$DEPLOY_PASSWORD@$NTSAPINAME.scm.azurewebsites.net/$NTSAPINAME.git" origin main:MASTER
+# git remote add $REMOTE_NAME $DEPLOY_URL
+# git add .
+# git commit -m "Initial"
+# git push "https://$DEPLOY_USER:$DEPLOY_PASSWORD@$NTSAPINAME.scm.azurewebsites.net/$NTSAPINAME.git" origin main:MASTER
 
 printf "Swagger UI Test page: https://$NTSAPINAME.azurewebsites.net/swagger\n\n"
 printf "Swagger JSON URL. Copy for later: https://$NTSAPINAME.azurewebsites.net/swagger/v1/swagger.json\n\n"
