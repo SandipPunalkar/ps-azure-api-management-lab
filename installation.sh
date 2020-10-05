@@ -22,6 +22,8 @@ az webapp deployment user set --user-name $DEPLOY_USER --password $DEPLOY_PASSWO
 
 # Deployment of app to App Service 
 
+cd ps-azure-api-management-lab
+
 git remote add $REMOTE_NAME $DEPLOY_URL
 git add .
 git commit -m "Initial"
