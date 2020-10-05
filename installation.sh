@@ -24,6 +24,8 @@ az webapp deployment user set --user-name $DEPLOY_USER --password $DEPLOY_PASSWO
 
 GIT_URL="https://$DEPLOY_USER@$ntsApiName.scm.azurewebsites.net/$ntsApiName.git"
 
+cd ps-azure-api-management-lab
+
 git remote add $REMOTE_NAME $GIT_URL
 
 git add .
