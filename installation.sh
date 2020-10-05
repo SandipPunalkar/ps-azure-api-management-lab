@@ -27,4 +27,5 @@ git add .
 git commit -m "Initial"
 git push "https://$DEPLOY_USER:$DEPLOY_PASSWORD@$NTSAPINAME.scm.azurewebsites.net/$NTSAPINAME.git" origin main:master
 
+printf "Swagger UI Test page: https://$NTSAPINAME.azurewebsites.net/swagger\n\n"
 printf "Swagger JSON URL. Copy for later: https://$NTSAPINAME.azurewebsites.net/swagger/v1/swagger.json\n\n"
